@@ -14,7 +14,7 @@ access to buckets owned by the same project as the VM.
 When testing, especially on a developer machine, credentials can also be
 configured using the [gcloud tool][]:
 
-    gcloud auth login
+    gcloud auth application-default login
 
 Alternatively, you can set the `GOOGLE_APPLICATION_CREDENTIALS` environment
 variable to the path to a JSON key file downloaded from the Google Developers
